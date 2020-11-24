@@ -1,0 +1,62 @@
+#base{
+    background: url("images/jangka_sorong_base.png");
+    background-repeat: no-repeat;
+}
+
+#pointer{
+    z-index:0;
+}
+
+#outer-dropzone {
+    height: 140px;
+  }
+  
+  #inner-dropzone {
+    height: 80px;
+    position: absolute;
+    top:0;
+    margin-top:150px;
+    opacity:0.5;
+  }
+  
+  .dropzone {
+    background-color: #bfe4ff;
+    border: dashed 4px transparent;
+    border-radius: 4px;
+    margin: 10px auto 30px;
+    padding: 10px;
+    width: 200px;
+    transition: background-color 0.3s;
+  }
+  
+  .drop-active {
+    border-color: #aaa;
+  }
+  
+  .drop-target {
+    background-color: #C9894D;
+    border-color: #fff;
+    border-style: solid;
+  }
+  
+  .drag-drop {
+    display: inline-block;
+    width: 120px;
+    padding: 2em 0.5em;
+    margin: 1rem 0 0 1rem;
+  
+    color: #fff;
+    background-color: #C9894D;
+    border: solid 2px #fff;
+  
+    touch-action: none;
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  
+    transition: background-color 0.3s;
+  }
+  
+  .drag-drop.can-drop {
+    color: #000;
+    background-color: #C9894D;
+  }

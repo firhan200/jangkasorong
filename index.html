@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+
+    <div id="base">
+        <img src="images/jangka_sorong_scroll.png" id="pointer"/>
+    </div>
+    
+    <div id="inner-dropzone" class="dropzone">Taruh Benda di sini</div>
+    <div id="yes-drop" class="drag-drop" data-width="120">Balok Kayu</div>
+
+    <form id="pertanyaan" method="post">
+        *Geset balok kayu di atas
+        <hr/>
+        Panjang Benda adalah:
+        <div>
+            <input id="jawaban" type="text"/> mm
+            <br/>
+            *jawabannya 5,7
+        </div>
+        <button id="submit" type="submit">Ya</button>
+        <button type="reset">Batal</button>
+    </form>
+    <!-- script section -->
+    <script src="https://cdn.jsdelivr.net/npm/interactjs@next/dist/interact.min.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.0.min.js"
+  integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
